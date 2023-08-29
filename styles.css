@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Cedarville+Cursive&family=Dancing+Script:wght@500;700&family=Mukta&family=Open+Sans:ital,wght@1,300&family=Poppins:ital,wght@0,200;0,400;1,100&family=Roboto+Slab:wght@300&display=swap');
+body {
+  background-color: rgb(254, 216, 216);
+  height: 100vh;
+}
+
+.content{
+  border-collapse:collapse;
+  margin-left:20% ;
+  font-size:0.9em;
+}
+.content th,
+.content td{
+  padding: 15px 15px;
+}
+.content tbody tr{
+  border-bottom:1px solid #dddddd;
+}
+.content tbody tr : nth-of-type (even)
+{
+   background-color: #dddddd;
+}
+.content tbody tr : last-of-type 
+{
+  border-bottom: 1px solid #ff0000;
+}
+
+#row
+{
+   display: flex;
+   flex-direction: row;
+}
+.column {
+  float: left;
+  padding: 5px;
+}
+
+
+div img {
+  flex-direction: row;
+  height: 40px;
+  width: 100px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.5em;
+}
+#lunch{
+  flex-direction: column;
+  background: white;
+}
+table {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0px 1px 14px 0px rgba(0, 0, 50, 0.3);
+  border-bottom: 3px solid rgb(229, 31, 71);
+}
+
+#red {
+  background-color: rgb(229, 31, 71);
+  color: white;
+}
+tr {
+  background-color: white;
+}
+
+table {
+  align-items: center;
+}
+
+#monday {
+  background-color: azure;
+}
+#tuesday {
+  background-color: #dddddd;
+}
+#wednesday {
+  background-color: azure;
+}
+#thursday {
+  background-color: #dddddd;
+}
+#friday {
+  background-color: azure;
+}
+#saturday {
+  background-color: #dddddd;
+}
+#student , #course
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight:bolder;
+  color: rgb(226, 17, 17);
+  padding-top: 2%;
+}
+#kalvium
+{
+  height: 100px;
+  width: 1000px;
+  margin-left: 10%;
+  padding-top: 2%;
+  
+}
+
+#sl img{
+  height: 40px;
+  width: 40px;
+  padding-top: 20px;
+}
+#course
+{
+  margin-left: 2%;
+}
+
+#student
+{
+  margin-left:2px;
+}
+#kalvium img
+{
+  height: 80px;
+  width: 250px;
+  padding-top: 20px;
+  font-weight:bolder;
+}
+#head
+{
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 1%;
+
+}
